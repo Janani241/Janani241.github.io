@@ -120,8 +120,8 @@ section {
 /* Project Card Styling */
 
 .project-link {
-  text-decoration: none;
-  color: inherit; /* Inherit the color from the card content */
+  text-decoration: none !important;
+  color: inherit !important;
   display: block;
 }
 
@@ -129,9 +129,10 @@ section {
 .project-link:hover,
 .project-link:focus,
 .project-link:active {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: inherit !important;
 }
+
 
 .project-card {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
