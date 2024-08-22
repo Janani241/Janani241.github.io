@@ -118,6 +118,15 @@ section {
 
 /* Card */
 /* Project Card Styling */
+
+/* Remove link underline and make the entire card clickable */
+.project-link {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the card content */
+  display: block;
+}
+
+
 .project-card {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     border: none;
