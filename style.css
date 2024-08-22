@@ -119,13 +119,19 @@ section {
 /* Card */
 /* Project Card Styling */
 
-/* Remove link underline and make the entire card clickable */
 .project-link {
   text-decoration: none;
   color: inherit; /* Inherit the color from the card content */
   display: block;
 }
 
+/* Ensure no underline on hover, focus, or active states */
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  text-decoration: none;
+  color: inherit;
+}
 
 .project-card {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
@@ -164,6 +170,7 @@ section {
   .project-card:hover .card-text {
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
   }
+
   
   /* h2 {
     font-size: 2.5rem;
