@@ -172,6 +172,33 @@ section {
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
   }
 
+.custom-btn {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn:hover {
+  background: linear-gradient(135deg, #0056b3, #004494);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.highlight-text {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+
   
   /* h2 {
     font-size: 2.5rem;
